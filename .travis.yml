@@ -20,7 +20,6 @@ before_script:
 script:
   - ng build --prod --base-href https://toocheewee.github.io/bitcoin-order-app/
 
-  
 deploy:
   provider: pages
   skip_cleanup: true
